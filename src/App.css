@@ -1,7 +1,37 @@
 .App {
   text-align: center;
+  margin-top: 20px;
 }
 
+body{
+  background-color: aliceblue;
+}
+
+:checked {
+  text-decoration: line-through;
+  }
+
+h1{
+  color: blueviolet;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  color: palevioletred;
+  background-color: antiquewhite;
+  border: purple 1px solid;
+  margin-bottom: 0.5rem;
+  margin-left: 870px;
+  padding: 0.3rem;
+  width:fit-content;
+  height: fit-content;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
